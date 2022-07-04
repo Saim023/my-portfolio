@@ -1,0 +1,57 @@
+body {
+	font-family: "Cardo", serif;
+	font-family: "Finlandica", sans-serif;
+	font-family: "Lora", serif;
+	margin: 0px;
+}
+
+.orange-color {
+	color: orange;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 25px;
+}
+
+p {
+	text-align: justify;
+}
+
+#sect-one {
+	display: flex;
+	background-image: url(images/top-banner.png);
+	background-repeat: no-repeat;
+}
+
+#sect-one a {
+	text-decoration: none;
+	color: white;
+	background-color: orange;
+	text-align: center;
+	padding: 6px 20px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+#sect-one a:hover {
+	color: black;
+	background-color: #f40b9b;
+}
+
+.half-width {
+	width: 50%;
+	padding-left: 3%;
+}
+.half-width img {
+	width: 50%;
+}
