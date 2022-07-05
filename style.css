@@ -9,7 +9,6 @@ body {
 
 .orange-color {
 	color: orange;
-	font-size: 40px;
 }
 
 h1 {
@@ -42,6 +41,16 @@ p {
 	padding-top: 120px;
 }
 
+#sect-three > h1 {
+	margin-left: 3%;
+	padding-top: 120px;
+}
+
+.flexible-area {
+	display: flex;
+	padding-right: 20px;
+}
+
 .link-button {
 	text-decoration: none;
 	color: white;
@@ -65,4 +74,31 @@ p {
 }
 .half-width img {
 	width: 50%;
+}
+
+.experience-items {
+	box-shadow: 10px 10px 40px gray;
+	width: 40%;
+	padding: 10px 20px;
+	margin-left: 5%;
+	margin-right: 5%;
+	border-left: 5px solid green;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+.flex-items {
+	display: flex;
+	padding-bottom: 20px;
+}
+.experience-items:hover {
+	background-image: url(images/bg/jonatan-pie-UPWuKzAcuUI-unsplash.jpg);
+}
+
+footer p {
+	text-align: center;
+	padding: 15px;
+	margin-top: 15px;
 }
